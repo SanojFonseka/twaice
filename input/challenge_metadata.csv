@@ -1,0 +1,5 @@
+container_id,tid,sensor_name,sensor_type
+e321dcfa-4b69-4fd7-afa9-3308ca066ed2,eee3b3ab-65a6-4e8c-9667-1e064b81df70,String Current,Current
+e321dcfa-4b69-4fd7-afa9-3308ca066ed2,7d9471db-a2ab-4f43-8259-dd38a9a71350,String Voltage,Voltage
+67df3c98-eccd-4cd9-9793-5b62e17e54f6,c3fe0404-cfd5-44d5-9073-1d4e1b4a90e6,String Current,Current
+67df3c98-eccd-4cd9-9793-5b62e17e54f6,6f9a763b-d599-4788-8247-41c66c543b27,String Voltage,Voltage
