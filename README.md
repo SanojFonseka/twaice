@@ -25,3 +25,10 @@ load raw data from parquet table and metadata from the csv file
 enrich sensor data by doing a join
 
 write data to separate parquet tables by the sensor type to enusure future requirements and partitioned by date and container id
+
+### Calculate cumulative throughtput (Task 2)
+read enriched data for each sensor type
+
+calculate cumulative throughput using pyspark window functions
+
+write cumulative throughput data to parquet table for future requirements and partitioned by date and container id

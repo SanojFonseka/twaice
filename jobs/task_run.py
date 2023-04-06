@@ -17,4 +17,10 @@ try:
 except Exception:
     logger.error(msg = "falied application SensorDataEnrichment", exc_info = True)
 
+
+try:
+    CumulativeThroughput("/app/output", "/app/output").run()
+except Exception:
+    logger.error(msg = "falied application CumulativeThroughput", exc_info = True)
+
 logger.info("successfully completed the application")
