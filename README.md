@@ -32,3 +32,9 @@ read enriched data for each sensor type
 calculate cumulative throughput using pyspark window functions
 
 write cumulative throughput data to parquet table for future requirements and partitioned by date and container id
+
+### SQL query optimization (Task 3)
+
+optimized SQl query is located in output directory.
+
+first created a derived table that calculates the average m_voltage per m_container_id. Then, joined the measurements table with this derived table on the m_container_id column, and add an additional condition in the ON clause to filter only the rows where m_voltage is greater than the average m_voltage for that m_container_id. By this way there is no corelated subqueries and also prevent unnecessary comparisons between values.
