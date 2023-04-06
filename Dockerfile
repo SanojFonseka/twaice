@@ -32,6 +32,7 @@ COPY /jobs/task_run.py /app
 COPY /conf/requirements.txt /app/conf
 COPY /input/challenge_metadata.csv /app/input
 COPY /input/challenge_data.parquet.gzip /app/input
+COPY /tests/test_tasks_processes.py /app/tests
 
 WORKDIR /app
 
